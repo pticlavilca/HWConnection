@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="HWConnection" basedir="." default="msg">
     <target name="msg">
-        <echo>$ant.project.name</echo>
+        <echo>${ant.project.name}</echo>
     </target>
 
-    
+    <property name="web" value="web/WEB-INF"/>
+    <property name="classes" value="${web}/classes"/>
 
 
     <target name="mkDir">
-
-
+        <mkdir dir="${web}"/>
+        <mkdir dir="${classes}"/>
     </target>
 
 </project>
