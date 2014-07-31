@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="HWConnection" basedir="." default="msg">
+    <target name="msg">
+        <echo>$ant.project.name</echo>
+    </target>
+
+    
+
+
+    <target name="mkDir">
+
+
+    </target>
+
+</project>
